@@ -14,5 +14,5 @@ def alive():
 
 @app.get("/helth")
 def helth():
-    return {"message": "Hello from helth"}
+    return {"message": "Hello from helth "}
 
