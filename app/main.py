@@ -16,3 +16,7 @@ def alive():
 def helth():
     return {"message": "Hello from helth "}
 
+@app.get("/status")
+def status():
+    return {"message": "Hello from status "}
+
