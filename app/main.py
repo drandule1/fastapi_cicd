@@ -10,3 +10,8 @@ def root():
 @app.get("/alive")
 def alive():
     return {"message": "Hello from alive"}
+
+
+@app.get("/helth")
+def helth():
+    return {"message": "Hello from helth"}
