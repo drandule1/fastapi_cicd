@@ -18,5 +18,5 @@ def helth():
 
 @app.get("/status")
 def status():
-    return {"message": "Hello from status "}
+    return {"message": "Hello from hell"}
 
