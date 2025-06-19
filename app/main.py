@@ -12,9 +12,9 @@ def alive():
     return {"message": "Hello from alive"}
 
 
-@app.get("/helth")
-def helth():
-    return {"message": "Hello from helth "}
+@app.get("/health")
+def health():
+    return {"message": "Hello from health "}
 
 @app.get("/status")
 def status():
